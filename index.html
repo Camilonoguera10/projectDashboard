@@ -1,0 +1,423 @@
+<!-- INICIO DE LA PAGINA WEB EN HTML-->
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./style.css"> <!-- INTEGRACIÓN DE ARCHIVO PRINCIPAL DE ESTILOS DE CSS-->
+  <title>BixDay Crypto</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <!-- INICIO DE HEADER DONDE ENCONTRAMOS LA PARTE PRINCIPAL DE LAS CATEGORÍAS QUE VAMOS A USAR ENTRE ELLAS ESTA EL HOME,
+  LA BARRA DE TRADING, LA OPCIÓN DE CURSOS, LA PARTE DE SOPORTE Y POR ULTIMO LA OPCIÓN DE INICIO DE SESIÓN-->
+  <div class="header">
+    <nav class="nav d-flex justify-content-evenly align-items-center header">
+
+      <img src="./Assets/Header/Logo_Bixday.png" width="50rem" height="50" alt="">
+
+      <!-- INICIO DE LA BARRA PRINCIPAL DE HEADER DONDE ENCONTRAMOS LAS CATEGORÍAS PRINCIPALES-->
+      <a class="nav-link active" aria-current="page" href="#">Home</a>
+
+      <!-- INTEGRAMOS DESDE LA OPCIÓN DE TRADING UN DROPDOWN DESDE BOOSTRAP PARA OBTENER MAS OPCIONES-->
+      <div class="d-flex flex-row-reverse bd-highlight">
+        <div class="dropdown telefono">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            Trading
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="https://web.whatsapp.com"> Whatsapp</a></li>
+            <li><a class="dropdown-item" href="https://www.instagram.com">Instagram</a></li>
+            <li><a class="dropdown-item" href="https://www.facebook.com/bixdaystore">Facebook</a></li>
+            <img src="./Assets/Header/Portada.jpg" width="300rem" alt="">
+          </ul>
+        </div>
+      </div>
+
+      <!-- INTEGRAMOS DESDE LA OPCIÓN DE COURSES UN DROPDOWN DESDE BOOSTRAP PARA OBTENER MAS OPCIONES-->
+      <div class="d-flex flex-row-reverse bd-highlight">
+        <div class="dropdown telefono">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            Courses
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="https://web.whatsapp.com"> Whatsapp</a></li>
+            <li><a class="dropdown-item" href="https://www.instagram.com">Instagram</a></li>
+            <li><a class="dropdown-item" href="https://www.facebook.com/bixdaystore">Facebook</a></li>
+            <img src="./Assets/Header/Portada.jpg" width="300rem" alt="">
+          </ul>
+        </div>
+      </div>
+
+      <!-- INTEGRAMOS DESDE LA OPCIÓN DE SUPPORT UN DROPDOWN DESDE BOOSTRAP PARA OBTENER MAS OPCIONES-->
+      <div class="d-flex flex-row-reverse bd-highlight">
+        <div class="dropdown telefono">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            Support
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="https://web.whatsapp.com"> Whatsapp</a></li>
+            <li><a class="dropdown-item" href="https://www.instagram.com">Instagram</a></li>
+            <li><a class="dropdown-item" href="https://www.facebook.com/bixdaystore">Facebook</a></li>
+            <img src="./Assets/Header/Portada.jpg" width="300rem" alt="">
+          </ul>
+        </div>
+      </div>
+
+
+      <!-- DESDE AQUÍ INTEGRAMOS UN BOTÓN CON LA OPCIÓN DE INICIAR SESIÓN EN EL CUAL SE DESPLIEGA UNA BARRA LATERAL PARA EL INICIO
+      DE SESIÓN DONDE ESTA DISPONIBLE LA OPCIÓN DE REGISTRARSE U OLVIDAR LOS DATOS DE INGRESO-->
+      <div class="login">
+        <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+          aria-controls="offcanvasRight">
+          <img src="./Assets/Header/Login.png" width="50" height="50" alt="img_login">
+        </button>
+      </div>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <h3>Hola mundo</h3>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- INTEGRAMOS UN CAROUSEL EN NUESTRO HEADER CON TEXTO INFORMATIVO Y UN BOTÓN DE HIPERVÍNCULO LLEVANDO DE FORMA DIRECTA A LAS PERSONAS
+     PARA  COMENZAR A REALIZAR EL TRADING-->
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="3000">
+        <img src="./Assets/Header/Portada.jpg" class="d-block w-100" alt="img_slide">
+        <div class="carousel-caption d-none d-md-block">
+          <button>Hola Mundo</button>
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="./Assets/Header/Portada.jpg" class="d-block w-100" alt="img_slide_2">
+        <div class="carousel-caption d-none d-md-block">
+          <button>Hola Mundo</button>
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./Assets/Header/Portada.jpg" class="d-block w-100" alt="img_slide_3">
+        <div class="carousel-caption d-none d-md-block">
+          <button>Hola Mundo</button>
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- INTEGRACIÓN DE EL PRIMER CÓDIGO CON LA OPCIÓN DE SEGURIDAD VISUAL DE LA PAGINA WEB CON EL SISTEMA TRUSTPILOT-->
+  <div class="d-flex justify-content-center container text-center">
+    <div class="row row-cols-auto">
+      <div class="col">
+        <p class="text_trustcopilot">Excellent</p>
+      </div>
+      <div class="col">
+        <img src="./Assets/Header/TrustPilot_Star.svg" width="100" alt="">
+      </div>
+      <div class="col">
+        <p><span>74.456</span> opinions on</p>
+      </div>
+      <div class="col">
+        <img src="./Assets/Header/TrustPilot.png" width="100" alt="">
+      </div>
+    </div>
+  </div>
+
+  <!-- INTEGRACIÓN DE CÓDIGO INFORMATIVO FORMA PARTE DEL BODY COMO UN JUMBOTRON-->
+  <div class="row">
+    <div class="col-sm-6 mb-3 mb-sm-0">
+      <div class="card">
+        <div class="card-body">
+          <h3 class="card-title">Get full control</h3>
+          <p class="card-text">The outcome of any investment can be unpredictable, so it is very important that all
+            investors have good control over their personal risk management strategy.</p>
+          <img src="./Assets/Header/Portada.jpg" class="img-fluid" alt="...">
+          <a href="#" class="btn btn-primary">Log in</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+          <h3 class="card-title">Smart investment</h3>
+          <p class="card-text">When everyone is looking at the prices, we will give you a better perspective. Get
+            on-the-go access to fundamental analysis.</p>
+          <img src="./Assets/Header/Portada.jpg" class="img-fluid" alt="...">
+          <a href="#" class="btn btn-primary">Sign up</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h2 class="d-flex justify-content-center text_deposits">Deposits and Withdrawals</h2>
+
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">
+        <img src="./Assets/Header/Logo_Bixday.png" width="50" height="50" alt="">
+        <p class="">PSE</p>
+      </div>
+      <div class="col">
+        <img src="./Assets/Header/Logo_Bixday.png" width="50" height="50" alt="">
+        <p class="">Visa</p>
+      </div>
+      <div class="col">
+        <img src="./Assets/Header/Logo_Bixday.png" width="50" height="50" alt="">
+        <p class="">Mastercard</p>
+      </div>
+      <div class="col">
+        <img src="./Assets/Header/Logo_Bixday.png" width="50" height="50" alt="">
+        <p class="">Wester Union</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <img src="./Assets/Header/Logo_Bixday.png" width="50" height="50" alt="">
+        <p class="">Payoneer</p>
+      </div>
+      <div class="col">
+        <img src="./Assets/Header/Logo_Bixday.png" width="50" height="50" alt="">
+        <p class="">PayPal</p>
+      </div>
+      <div class="col">
+        <img src="./Assets/Header/Logo_Bixday.png" width="50" height="50" alt="">
+        <p class="">BitCoin</p>
+      </div>
+      <div class="col">
+        <img src="./Assets/Header/Logo_Bixday.png" width="50" height="50" alt="">
+        <p class="">Skrill</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid academy">
+    <h3 class="">BixDay Crypto Academy</h3>
+    <p class="text_academy">Let us help you, now that you are starting your journey in the world of investments, so that
+      we can guide you on the right path to follow. With our video tutorials and free webinars, you'll be up to speed in
+      no time and ready to go.</p>
+
+    <div class="container-fluid text-center">
+      <h3 class="">Trading</h3>
+      <div class="row row-cols-4">
+        <div class="col">
+          <iframe width="300" height="200" src="https://www.youtube.com/embed/uOy_toSbKc4" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        </div>
+        <div class="col">
+          <iframe width="300" height="200" src="https://www.youtube.com/embed/Clu1MHeZhqg" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        </div>
+        <div class="col">
+          <iframe width="300" height="200" src="https://www.youtube.com/embed/RJT7CYJ3RcY" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        </div>
+        <iframe width="300" height="200" src="https://www.youtube.com/embed/VYzR1mq9wgg" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+      </div>
+
+      <h3 class="">Trading</h3>
+      <div class="row row-cols-4">
+        <div class="col">
+          <iframe width="300rem" height="200" src="https://www.youtube.com/embed/711YW2ZQ480"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        </div>
+        <div class="col">
+          <iframe width="300" height="200" src="https://www.youtube.com/embed/w0mebufDXgk" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        </div>
+        <div class="col">
+          <iframe width="300" height="200" src="https://www.youtube.com/embed/ENza7dSFnv4" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        </div>
+        <div class="col">
+          <iframe width="300" height="200" src="https://www.youtube.com/embed/61KBzSYFZGQ" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="container text-center">
+    <div class="row">
+      <div class="col d-flex align-items-center">
+        <div class="column">
+          <h5>20% DEPOSIT BONUS</h5>
+          <p>*Terms and Conditions apply</p>
+        </div>
+      </div>
+      <div class="col">
+        <h2>Receive up to $40,000</h2>
+        <p>in withdrawable trading bonuses</p>
+        <button>Start now</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="container text-center">
+
+    <h3 class="d-flex justify-content-center">Memberships</h3>
+
+    <div class="row">
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="./Assets/Header/Logo_Bixday.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">STANDARD</h5>
+            <p class="card-text">A commission-free account perfect for new traders who want to start investing.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">$20 USD</li>
+            <li class="list-group-item">Support 24/7</li>
+            <li class="list-group-item">Gift $5</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">Buy Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="./Assets/Header/Logo_Bixday.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">PRO</h5>
+            <p class="card-text">The Pro account is suitable for traders who want to benefit from zero commissions.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">$100 USD</li>
+            <li class="list-group-item">Support 24/7</li>
+            <li class="list-group-item">Gift $25</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">Buy Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="./Assets/Header/Logo_Bixday.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">ELITE</h5>
+            <p class="card-text">An Elite account is best suited for traders looking for raw spreads and instant
+              execution.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">$500 USD</li>
+            <li class="list-group-item">Support 24/7</li>
+            <li class="list-group-item">Gift $500</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">Buy Now</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container row g-0 text-center">
+    <div class="col-sm-6 col-md-8">
+      <h3>Experiencia</h3>
+    </div>
+    <div class="col-6 col-md-4">
+      <h3>Trading experience across multiple devices</h3>
+      <p>Trade without any commission, whenever you want and from wherever you are.</p>
+      <button>Sign Up</button>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <button>Apple</button>
+          </div>
+          <div class="col">
+            <button>Android</button>
+          </div>
+          <div class="col">
+            <button>Huawei</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer bg-dark text-light py-3">
+    <div class="container">
+      <div class="row">
+        <!-- Logo en la parte izquierda -->
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <img src="ruta_del_logo.png" alt="Logo" width="100">
+        </div>
+  
+        <!-- Links a redes sociales -->
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <ul class="list-unstyled">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+          </ul>
+        </div>
+  
+        <!-- Otras opciones en la parte derecha -->
+        <div class="col-lg-6 col-md-4 col-sm-12 text-right">
+          <a href="#">Política de Privacidad</a>
+          <a href="#">Términos y Condiciones</a>
+          <a href="#">Contacto</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+<!-- -->
