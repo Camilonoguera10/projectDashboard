@@ -78,6 +78,18 @@
     color: whitesmoke;
     height: 15rem;
     margin-bottom: 3rem;
+    
+}
+
+.btn_bonus{
+    width: 10rem;
+    height: 3rem;
+    border: 3px orange solid;
+    border-radius: 3rem;
+    background-color: orangered;
+    font-size: 150%;
+    
+    color: whitesmoke;
 }
 
 .con_member{
@@ -161,4 +173,37 @@
 
 .icon_facebook{
     background-image: url(./Assets/Body/icon_facebook.png);
+    background-position: center;
+    background-size: contain;
+}
+
+.icon_twitter{
+    background-image: url(./Assets/Body/icon_twitter.png);
+    background-position: center;
+    background-size: contain;
+}
+
+.icon_google{
+    background-image: url(./Assets/Body/icon_google.png);
+    background-position: center;
+    background-size: contain;
+    background-color: transparent;
+}
+
+.icon_instagram{
+    background-image: url(./Assets/Body/icon_instagram.png);
+    background-position: center;
+    background-size: contain;
+}
+
+.icon_linkedin{
+    background-image: url(./Assets/Body/icon_linkedin.png);
+    background-position: center;
+    background-size: contain;
+}
+
+.icon_github{
+    background-image: url(./Assets/Body/icon_github.png);
+    background-position: center;
+    background-size: contain;
 }
