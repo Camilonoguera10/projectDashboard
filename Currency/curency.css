@@ -1,0 +1,109 @@
+.tittle{
+    margin-top: 1rem;
+}
+
+.calculator{
+    width: 50%;
+    height: 10%;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.convertidor{
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.moneda{
+    margin: 1rem;
+}
+
+.moneda select{
+    width: 5rem;
+    height: 2.5rem;
+    border-radius: 3rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: transparent;
+}
+
+input{
+    padding: 1rem 1rem 1rem 1rem ;
+    background-color: whitesmoke;
+    border-radius: 3rem;
+    width: 15rem;
+    height: 2.5rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.btn_convert{
+    width: 25%;
+    height: 3.25rem;
+    font-size: 1.5rem;
+    text-justify: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.cambio{
+    font-size: 3rem;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+.info{
+    border-radius: 3rem;
+    background-color: whitesmoke;
+    color: grey;
+}
+
+.btn_info{
+    margin-bottom: 0.3rem;
+}
+
+.icon_facebook, .icon_twitter, .icon_google, .icon_instagram, .icon_linkedin, .icon_github {
+    width: 3.125rem;
+    height: 3.125rem;
+    border-radius: 100%;
+    
+}
+
+.icon_facebook{
+    background-image: url(../Assets/Body/icon_facebook.png);
+    background-position: center;
+    background-size: contain;
+}
+
+.icon_twitter{
+    background-image: url(../Assets/Body/icon_twitter.png);
+    background-position: center;
+    background-size: contain;
+}
+
+.icon_google{
+    background-image: url(../Assets/Body/icon_google.png);
+    background-position: center;
+    background-size: contain;
+    background-color: transparent;
+}
+
+.icon_instagram{
+    background-image: url(../Assets/Body/icon_instagram.png);
+    background-position: center;
+    background-size: contain;
+}
+
+.icon_linkedin{
+    background-image: url(../Assets/Body/icon_linkedin.png);
+    background-position: center;
+    background-size: contain;
+}
+
+.icon_github{
+    background-image: url(../Assets/Body/icon_github.png);
+    background-position: center;
+    background-size: contain;
+}
